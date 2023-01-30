@@ -57,10 +57,63 @@ h1 {
     /* font: normal normal 900 60px/72px Roboto; */
 }
 
+.spacemargin{
+    margin: 1%;
+    padding: 1%;
+}
+.pleft{
+    padding-left: 5%;
+}
+
+.jcont{
+    justify-content: center;
+}
+.cuerpo4{
+    display: flex;
+    padding: 5% 0%;
+    margin-left: -150px !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    background-color: #0063BC;
+    color: white;
+    font-weight: 700;
+}
+.divcuerpo3{
+    padding-left: 10%;
+    padding-top: 2%;
+    height: 1100px;
+}
+.burbuja1{
+    position: relative;
+    z-index: -1;
+}
+
+.burbuja2{
+    position: relative;
+    opacity: 0.5;
+    top: -500px;
+    z-index: -1;
+    left: 450px;
+}
+
+.burbujax{
+    
+    width: 80%;
+    position: relative;
+    border-radius: 50%;
+    border-top: 40px solid rgb(128, 235, 118);;
+    border-right: 80px solid rgb(128, 235, 118);
+    border-bottom: 40px solid rgb(128, 235, 118);;
+    top: -300px;
+    z-index: -1;
+}
 .redondel {
     position: fixed;
     right: 25px;
-    bottom: 25px;
+    bottom: 60px;
     width: min-content;
     height: min-content;
     z-index: 7000;
@@ -136,7 +189,10 @@ h1 {
     transition: .3s all;
 }
 
-
+#logo2{
+    width: 190px;
+    height: 190px;
+}
 
 .phone1:hover {
     cursor: pointer;
@@ -566,7 +622,8 @@ h1 {
 }
  
 .textonegroj{
-    color:darkred;
+    text-align: center;
+    color:#e21414;
     font-weight: 700;
 } 
 
@@ -586,6 +643,41 @@ display: flex;
 .divconflex{
 display: flex;
 }
+
+.footerid {
+    background-color: #434343;
+    color: white;
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+    padding: 1%;  
+}
+
+.footerid3 {
+    background-color: #434343;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+.footerid2 {
+    background-color: white; 
+    border-top: #707070 solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+
+.footer1{ 
+    font-weight: 700;
+}
+
+.footer2{ 
+    font-weight: 700;
+}
+ 
 
 .parteone {
     display: flex;
@@ -1719,7 +1811,15 @@ chatboot1:target {
 @media (min-width: 1000px) and (max-width: 1249px) {
 
 
-    .parttwo {
+
+    
+    /* html {
+        zoom: 80% !important;
+    } */
+}
+   
+/* 
+     .parttwo {
         zoom: 135%;
         margin-right: -64px;
         width: 80%;
@@ -1728,17 +1828,9 @@ chatboot1:target {
         opacity: 1;
     }
 
-    
-    html {
-        zoom: 80% !important;
-    }
-
-   
-
- 
 
     .containerContrata{
-           /* zoom: 110% !important; */
+            
     display: flex;
     width: 100%;
     height: 1400px;
@@ -1921,8 +2013,7 @@ chatboot1:target {
 
 @media (min-width: 600px) and (max-width: 799px) {
 
-    .navbar {
-        /* width: 1366px; */
+    .navbar { 
         width: 100%;
         height: 94px;
         background: #FFFFFF 0% 0% no-repeat padding-box !important;
@@ -1967,12 +2058,6 @@ chatboot1:target {
         zoom: 120%;
     }
 
-    #footerid {
-        padding: 1%;
-        zoom: 90%;
-        width: 90%;
-        margin-left: 8%;
-    }
 
     .footerpar2 {
         width: 99%;
@@ -2054,9 +2139,7 @@ chatboot1:target {
 
 
 @media (min-width: 760px) and (max-width: 999px) {
-#footerid{
-    zoom:80%;
-}
+ 
 }
 
 @media (min-width: 100px) and (max-width: 759px) {
@@ -2307,8 +2390,7 @@ margin-top: 8% !important;
 .marginright{
     margin-right: 0px;
 }
-    .navbar {
-        /* width: 1366px; */
+    .navbar { 
         width: 100%;
         height: 94px;
         background: #FFFFFF 0% 0% no-repeat padding-box !important;
@@ -2361,20 +2443,7 @@ margin-top: 8% !important;
         zoom: 120%;
     }
 
-    #footerid {
-        padding: 1%;
-        zoom: 90%;
-        width: 90%;
-        margin-left: 8%;
-        
-    }
-
-    
-    #footerid .boton2fijo {
-        margin-right: 2px;
-    }
- 
-
+     
 
  
 
@@ -2425,4 +2494,4 @@ margin-top: 8% !important;
         width: 240px !important;
     }
     }
-    
+     */
